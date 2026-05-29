@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Soltion Items/">
+    <File Path="build.settings.props" />
+    <File Path="readme-generation.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="Laba3/Study.LabWork3.csproj" />
+    <Project Path="Study.LabWork3.Abstractions/Study.LabWork3.Abstractions.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="Study.LabWork3.UnitTests/Study.LabWork3.UnitTests.csproj" />
+  </Folder>
+</Solution>

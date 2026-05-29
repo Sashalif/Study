@@ -1,0 +1,25 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+	  <LangVersion>12.0</LangVersion>
+  	<ImplicitUsings>enable</ImplicitUsings>
+  	<Nullable>disable</Nullable>
+  	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	  <!-- Генерация XML-доков -->
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+	  <!-- Символы для отладки -->
+	  <DebugType>portable</DebugType>
+	  <DebugSymbols>true</DebugSymbols>
+
+	  <!-- Символьный пакет (опционально, если выкладываешь на nuget.org) -->
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+</Project>
